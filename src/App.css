@@ -1,0 +1,116 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Input and button styles */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Search input style */
+input[type="text"][placeholder="Search"] {
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Todo list styles */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.todo-item:hover {
+  background-color: #e9e9e9;
+}
+
+.todo-item.completed {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+/* Copy and Delete button styles */
+.todo-item button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.todo-item button.copy-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.todo-item button.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.todo-item button.delete-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.todo-item button.delete-button:hover {
+  background-color: #b52b27;
+}
