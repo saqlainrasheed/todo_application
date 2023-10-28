@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple to-do list application built using React and TypeScript. It allows you to create, search, copy, and delete to-do list items. The application also stores your to-do list items in local storage so you can access them even after refreshing the page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Create Todo List Items:** Add new to-do items with a description.
 
-## Expanding the ESLint configuration
+2. **Search Todo List Items:** Filter and find specific to-do items using the search bar.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Copy To Clipboard:** Copy the content of a to-do item to your clipboard with a single click.
 
-- Configure the top-level `parserOptions` property like this:
+4. **Delete Todo List Items:** Remove to-do items that are no longer needed.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+5. **Local Storage:** Your to-do list items are saved in your browser's local storage for persistence.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+6. **Responsive Design:** The application is designed to work on both desktop and mobile devices.
+
+## Installation
+
+To run this application on your local machine, follow these steps:
+
+1. Clone this repository:
+2. Run `Yarn install`
+3. Run `Yarn dev`
